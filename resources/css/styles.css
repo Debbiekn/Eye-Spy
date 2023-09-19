@@ -1,5 +1,5 @@
 html { 
-  background: url("images/Eye-spy- background.png") no-repeat center center fixed; 
+  background-image: url("images/Eye-spy- background.png") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -15,16 +15,9 @@ html {
     bottom: 0;
 }*/
 
-body { 
-    /* The image used */
-    /*background-image: url("images/Eye-spy- background.png");*/
- 
-    /* Full height */
-    height: 100%;  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+body {
+  background-image: url("images/Eye-spy- background.png")
+
 }
 
 figcaption {
@@ -132,9 +125,9 @@ a {
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
     height: auto; 
-    margin-bottom: -1%;    
+    /*margin-bottom: -1%;*/    
 }
 
 
