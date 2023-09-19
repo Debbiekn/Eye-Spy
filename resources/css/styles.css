@@ -1,17 +1,24 @@
-body, html {
+html { 
+  background: url("images/Eye-spy- background.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* background doesn't reach bottom of mobile screen*/ 
+/*body, html {
     height: 100%;
     font-size: 19px;
     margin-left: 0%;
     margin-right: 0%;
     bottom: 0;
-}
-
+}*/
 
 body { 
     /* The image used */
-    background-image: url("images/Eye-spy- background.png");
-   
-    
+    /*background-image: url("images/Eye-spy- background.png");*/
+ 
     /* Full height */
     height: 100%;  
     /* Center and scale the image nicely */
