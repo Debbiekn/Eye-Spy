@@ -6,9 +6,12 @@ body, html {
     bottom: 0;
 }
 
+
 body { 
     /* The image used */
-    background-image: url("/Applications/Codecademy/Wildlife Spies/resources/css/images/Eye-spy- background.png");  
+    background-image: url("images/Eye-spy- background.png");
+   
+    
     /* Full height */
     height: 100%;  
     /* Center and scale the image nicely */
