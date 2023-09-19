@@ -27,6 +27,7 @@ body {
 }
 
 
+
 figcaption {
     
     height: 60px;
@@ -130,10 +131,10 @@ a {
     color: rgb(246, 248, 249);
     padding-top: 10px;
 }
-
+ /*for Bird image only*/
 img {
-    width: auto;
-    height: 100%; 
+    width: 100%;
+    height: auto; 
     /*margin-bottom: -1%;*/    
 }
 
